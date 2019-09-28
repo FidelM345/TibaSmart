@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TibaSmart</string>
+    <string name="err_email">Invalid email</string>
+    <string name="err_password_confirmation">
+     The passwords do not match
+    </string>
+
+    <string name="gender">Select Gender</string>
+
+    <string name="blood_group">Select Blood Group</string>
+
+    <string name="provine_name">Select your Province</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="array_gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="array_rhesus">
+        <item>Rhesus +ve</item>
+        <item>Rhesus -ve</item>
+    </string-array>
+    <string-array name="array_province_name">
+        <item>Nairobi</item>
+        <item>Rift valley</item>
+        <item>Central</item>
+        <item>Nyanza</item>
+        <item>Western</item>
+        <item>Eastern</item>
+        <item>Coast</item>
+        <item>North Eastern</item>
+    </string-array>
+
+</resources>

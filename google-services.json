@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41401555969",
+    "firebase_url": "https://tibasmart-3e5aa.firebaseio.com",
+    "project_id": "tibasmart-3e5aa",
+    "storage_bucket": "tibasmart-3e5aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41401555969:android:3d46ede099580fd6d77400",
+        "android_client_info": {
+          "package_name": "com.example.tibasmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41401555969-pt1e669ounk0p4se35tesj0rm3qr0oh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tibasmart",
+            "certificate_hash": "0d49837e1ac736624fab8cdb086a132c91c8ff44"
+          }
+        },
+        {
+          "client_id": "41401555969-m7t663eb296e9n1bjgsrvinj8c782odi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRBGidxnkld-Q9RzDwdORfKfetI1jgG-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41401555969-m7t663eb296e9n1bjgsrvinj8c782odi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
