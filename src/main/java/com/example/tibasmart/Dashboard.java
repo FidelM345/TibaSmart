@@ -17,6 +17,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -241,7 +242,6 @@ public class Dashboard extends AppCompatActivity  implements NavigationView.OnNa
             e.printStackTrace();
         }
 
-
           user_profile_details();
          // test();
         initializeCountDrawer();
@@ -256,19 +256,29 @@ public class Dashboard extends AppCompatActivity  implements NavigationView.OnNa
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        Log.i("thebeast", "item id is "+id);
+
 
         if (id == R.id.nav_profile) {
+
+            Log.e("thebeast", "item selected");
             Intent intent=new Intent(Dashboard.this,MyAccount.class);
             startActivity(intent);
 
 
         } else if (id == R.id.nav_logout) {
+
             mAuth.signOut();
             Intent intent=new Intent(Dashboard.this,Login.class);
             startActivity(intent);
             finish();
 
         }
+
+
+
+
+
 
         /*if (id == R.id.nav_blood) {
             Intent intent=new Intent(Dashboard.this,BloodActivity.class);
@@ -326,6 +336,42 @@ public class Dashboard extends AppCompatActivity  implements NavigationView.OnNa
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.dashboard, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.nav_logout1:
+
+                mAuth.signOut();
+                Intent intent=new Intent(Dashboard.this,Login.class);
+                startActivity(intent);
+                finish();
+                return true;
+            case R.id.nav_profile11:
+                Log.e("thebeast", "item selected");
+                Intent intent1=new Intent(Dashboard.this,MyAccount.class);
+                startActivity(intent1);
+
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical"
@@ -13,7 +14,6 @@ android:layout_height="match_parent">
     android:layout_alignParentStart="true"
     android:layout_alignParentTop="true"
     android:background="@color/colorPrimary"
-    android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
     app:popupTheme="@style/Theme.AppCompat.NoActionBar">
 
     <androidx.constraintlayout.widget.ConstraintLayout

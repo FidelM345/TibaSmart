@@ -342,7 +342,7 @@ public class MyAccount extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent=new Intent(this,Dashboard.class);
         startActivity(intent);
 
     }
